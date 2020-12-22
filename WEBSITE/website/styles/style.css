@@ -34,7 +34,7 @@ body {
           justify-content: left;
   font-weight: bold;
   font-size: 40px;
-  padding-right: 800px;
+  padding-right: 780px;
   color: #6C9BD9;
 }
 
@@ -51,5 +51,13 @@ body {
 
 a {
   color: #6C9BD9;
+}
+
+.card {
+  margin: auto;
+  background-color: #6C9BD9;
+  border-radius: 0px, 0px, 15px, 15px;
+  width: 467 px;
+  height: 467px;
 }
 /*# sourceMappingURL=style.css.map */

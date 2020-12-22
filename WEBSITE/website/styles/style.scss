@@ -33,7 +33,7 @@ body {
     justify-content: left;
     font-weight: bold;
     font-size: 40px;
-    padding-right: 800px;
+    padding-right: 780px;
     color: $backgroundColor;
 }
 
@@ -51,3 +51,12 @@ body {
 a {
     color: $backgroundColor;
 }
+
+.card {
+    margin: auto;
+    background-color: $backgroundColor;
+    border-radius: 0px, 0px, 15px, 15px;
+    width: 467 px;
+    height: 467px;
+}
+
