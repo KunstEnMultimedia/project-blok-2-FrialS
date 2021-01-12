@@ -1,0 +1,16 @@
+footer {
+    background-color: $dark-color;
+    height: 100px;
+    width: 100%;
+    // position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    p{
+        color: $light-color;
+        font-family: $font-text;
+        font-weight: bold;
+        padding-top: 25px;
+        font-size: 30px;
+    }
+}

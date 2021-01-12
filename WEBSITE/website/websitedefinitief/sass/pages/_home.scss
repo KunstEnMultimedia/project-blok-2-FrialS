@@ -1,0 +1,135 @@
+body {
+    background-color: $bg-color;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+}
+
+footer{
+    // position: fixed;
+}
+
+.row{
+    padding-top: 15px;
+    .col {
+        height: 550px;
+        background-color: #6C9BD9;
+        padding-top: 450px;
+        display: flex;
+        padding-left: 30px;
+        font-family: $font-stack;
+        text-align: center;
+        font-size: 40px;
+        display: block;
+        margin: auto;
+        padding-top: 100px;
+        img {
+            height: 333px;
+            width: 345px;
+        }
+    }
+}
+    .card {
+        margin-bottom: 15px;
+        background-color: $primary-color;
+        border-radius: 0px, 0px, 15px, 15px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        .card-body {
+            background-color: $primary-color!important;
+        .card-title {
+            font-weight: bold;
+            color: #ffffff;
+            font-family: $font-text;
+            font-size: 20px;
+            text-align: center;
+        }
+        }
+    
+        .card-text{
+            font-family: $font-text;
+            font-size: 15px;
+            color: #ffffff;
+        }
+        .card-img-top {
+            display: flex;
+            flex-direction: row;
+        }
+        .btn-link {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: $font-text;
+        text-align: center;
+        padding-top: 270px;
+        
+    }
+
+
+    form {
+        display:flex;
+        flex-direction:row;
+        border-radius: 31px;
+        padding-top: 107px;
+        width: 390px;
+        height: 150px;
+        
+      }
+      
+      input {
+        flex-grow:2;
+        border:none;
+        border-radius: 31px;
+        border:2px solid $bright-blue;
+        text-align: center;
+      }
+
+      button {
+        border:5px solid$bright-blue;
+        background:blue;
+        color:white;
+        border-radius: 31px;
+      }
+
+      .zoekbalk-versiering {
+          padding-left: 625px;
+          padding-top: 10px;
+          padding-bottom: 279px;
+      }
+
+    .oerhollands-light {
+        color: $another-blue;
+        padding-top: 90px;
+    }
+
+    .button-allrecipes {
+        font-weight: bold;
+        font-family: $font-text;
+        border-radius: 8px;
+        background-color: $primary-color;
+        border: none;
+        height: 35px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+        padding-top: 5px;
+        text-decoration: none;
+    }
+
+
+   
+
+
