@@ -128,8 +128,77 @@ footer{
         padding-top: 5px;
         text-decoration: none;
     }
+    
+    .text-box{
+        h1{
+            text-align: left;
+            margin-left: 70px;
+            width: 600px;
+            // background-color: $light-color;
+            height: 10px;
+            padding-left: 20px;
+            color: $bg-color;
+            font-size: 35px;
+            // position: relative;top:50px ;left: 50px;
+            border-bottom: 50px solid $light-color;
+            // margin-top: 10px;
+        }
+        p{
+           width: 600px;
+           background-color: $light-color;
+           margin-left: 70px;
+           padding-top: 30px;
+           padding-bottom: 20px;
+           padding-left: 20px;
+           padding-right: 100px;
+           color: #ffffff;
+           margin-top: 10px;
+           img{
+               margin-left: 500px;
+               width: 50px;
+               height: 50px;
+           }
+        }
+    }
 
+    .ingredients{
+        width: 600px;
+           background-color: $light-color;
+           margin-left: 70px;
+           padding-top: 30px;
+           padding-bottom: 20px;
+           padding-left: 20px;
+           padding-right: 100px;
+           color: #ffffff;
+           margin-top: 10px;
+    }
+
+    .gerecht-foto{
+        img{
+            height: 400px;
+            padding-left: 850px;
+        }
+    }
+
+    // .text-box{
+    //     h1{
+    //         color: #ffffff;
+    //         background-color: $light-color;
+    //         height: 628px;
+    //         width: 1088px;
+    //         margin-left: 10px;
+    //         padding-left: 10px;
+    //         padding-top: 100px;
+    //         margin-top:282px;
+    //         text-align: left;
+    //     }
+    //     p{
+    //         font-weight: bold;
+    //         text-align: left;
+    //         padding-bottom: 200px;
+
+    //         // color: $bg-color;
+    //     }
+    // }
 
    
-
-

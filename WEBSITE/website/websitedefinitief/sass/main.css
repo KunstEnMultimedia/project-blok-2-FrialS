@@ -212,4 +212,50 @@ button {
   padding-top: 5px;
   text-decoration: none;
 }
+
+.text-box h1 {
+  text-align: left;
+  margin-left: 70px;
+  width: 600px;
+  height: 10px;
+  padding-left: 20px;
+  color: #CEDEF2;
+  font-size: 35px;
+  border-bottom: 50px solid #6C9BD9;
+}
+
+.text-box p {
+  width: 600px;
+  background-color: #6C9BD9;
+  margin-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 100px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.text-box p img {
+  margin-left: 500px;
+  width: 50px;
+  height: 50px;
+}
+
+.ingredients {
+  width: 600px;
+  background-color: #6C9BD9;
+  margin-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 100px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.gerecht-foto img {
+  height: 400px;
+  padding-left: 850px;
+}
 /*# sourceMappingURL=main.css.map */
