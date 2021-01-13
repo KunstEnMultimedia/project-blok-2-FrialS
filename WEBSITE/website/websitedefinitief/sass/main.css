@@ -56,7 +56,6 @@ footer {
   background-color: #020F59;
   height: 100px;
   width: 100%;
-  position: fixed;
   left: 0;
   bottom: 0;
   text-align: center;
@@ -247,7 +246,7 @@ button {
   font-size: 35px;
   border-bottom: 50px solid #6C9BD9;
   position: relative;
-  bottom: 570px;
+  bottom: 500px;
 }
 
 .text-box p {
@@ -259,7 +258,7 @@ button {
   color: #ffffff;
   margin-top: 10px;
   position: relative;
-  bottom: 590px;
+  bottom: 510px;
   min-height: 720px;
 }
 
