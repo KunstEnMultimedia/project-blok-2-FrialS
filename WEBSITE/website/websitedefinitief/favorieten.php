@@ -21,29 +21,33 @@
 </head>
 <body background="iconen/achtergrond.png"></body>
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <!-- 2. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
-        <a class="navbar-brand" href="#">Frial</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <!-- 3. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
-              <a class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="allerecepten.php">Recepten</a>
-            </li>
-        </div>
+    <nav class="navbar navbar-expand-lg">
+    <!-- 2. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Frial</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="container">
-            <!-- 4. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
-            <a class="fav-link ml-auto" href="favorieten.php"><img src="iconen/favorieten.svg" width="30" height="30" alt="" loading="lazy">Mijn favorieten</a>
-          </div>
-      </nav>
+      <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <!-- 3. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
+            <a class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="allerecepten.php">Recepten</a>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-center">
+          <!-- 4. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
+          <a class="fav-link ml-auto" href="favorieten.php"><img src="iconen/favorieten.svg" width="30" height="30"
+              alt="" loading="lazy">Mijn favorieten</a>
+        </div>
+      </div>
+    </div>
+  </nav>
     </header>
     <main>
       <div class="container">

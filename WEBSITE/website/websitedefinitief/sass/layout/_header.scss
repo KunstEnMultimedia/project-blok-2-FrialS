@@ -45,27 +45,30 @@
 //             color: $light-color;
 //         }
 //         .nav-link {
-            
+
 //         }
 //     }
 // }
 
-header{
+header {
     .navbar {
         background-color: $dark-color;
         height: 117px;
+
         .navbar-brand {
             font-family: $font-text;
             font-size: 40px;
             font-weight: bold;
             color: $light-color;
-            padding-left: 140px;
+            align-items: center;
+            // padding-left: 110px;
+
             &:hover {
                 color: $bg-color;
             }
         }
     }
-    
+
     .nav-item {
         .nav-link {
             font-size: 30px;
@@ -74,23 +77,29 @@ header{
             justify-content: space-between;
             align-items: center;
             font-family: $font-text;
+
             &:hover {
                 color: $light-color;
             }
         }
     }
-    
+
+    .navbar-nav {
+        width: 90px;
+    }
+
     .fav-link {
         text-decoration: none;
         font-size: 30px;
         font-family: $font-text;
         color: #ffffff;
-        padding-left: 250px;
+
         &:hover {
             color: $light-color;
         }
     }
 }
+
 
 // .navbar {
 //     background-color: $dark-color;

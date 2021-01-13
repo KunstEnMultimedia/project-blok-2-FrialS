@@ -35,28 +35,32 @@
         </nav> -->
         <!-- 1. Voeg class toe en stijl daarin de background, height, etc. -->
         <nav class="navbar navbar-expand-lg">
-            <!-- 2. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
-            <a class="navbar-brand" href="#">Frial</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <!-- 3. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
-                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="allerecepten.php">Recepten</a>
-                </li>
-            </div>
+    <!-- 2. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Frial</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <div class="container">
-                <!-- 4. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
-                <a class="fav-link ml-auto" href="favorieten.php"><img src="iconen/favorieten.svg" width="30" height="30" alt="" loading="lazy">Mijn favorieten</a>
-              </div>
-          </nav>
+      <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <!-- 3. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="allerecepten.php">Recepten</a>
+          </li>
+        </ul>
+        <div class="d-flex justify-content-center">
+          <!-- 4. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
+          <a class="fav-link ml-auto" href="favorieten.php"><img src="iconen/favorieten.svg" width="30" height="30"
+              alt="" loading="lazy">Mijn favorieten</a>
+        </div>
+      </div>
+    </div>
+  </nav>
     </header>
     <main> 
           <div class="row align-items-end">
@@ -75,7 +79,14 @@
           </div>
         </div>
         <div class="ingredients">
-          <p>ingredients</p>
+          <p>ingrediënten</p>
+          <ul>
+          <?php
+            foreach ($ingredients as $ingredient):
+              echo "<li>" . $ingredient["amount"] . " " . $ingredient["unit"] . " " . $ingredient["ingredient"] . "</li>";
+            endforeach;
+          ?>
+          </ul>
         </div>
         <div class="gerecht-foto">
           <img src="fotos-recipes/blotebilletjes.jpg" alt="">
@@ -83,7 +94,8 @@
         <div class="text-box">
             <h1><?= $recipe['name'] ?></h1>
             <p>
-                <img class="img-fav" src="iconen/favorietensymbool.svg" width="30" height="30" alt="" loading="lazy"><?= $recipe['description']?></p>
+                <img class="img-fav" src="iconen/favorietensymbool.svg" width="30" height="30" alt="" loading="lazy">
+                <?= nl2br($recipe['description']) ?></p>
                 <!-- <img src="iconen/favorieten.svg" width="30" height="30" alt="" loading="lazy"></p> -->
         </div>
         
