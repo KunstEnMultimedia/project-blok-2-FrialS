@@ -56,6 +56,7 @@ footer {
   background-color: #020F59;
   height: 100px;
   width: 100%;
+  position: fixed;
   left: 0;
   bottom: 0;
   text-align: center;
@@ -246,7 +247,7 @@ button {
   font-size: 35px;
   border-bottom: 50px solid #6C9BD9;
   position: relative;
-  bottom: 640px;
+  bottom: 570px;
 }
 
 .text-box p {
@@ -258,8 +259,8 @@ button {
   color: #ffffff;
   margin-top: 10px;
   position: relative;
-  bottom: 650px;
-  min-height: 520px;
+  bottom: 590px;
+  min-height: 720px;
 }
 
 .text-box p img {
@@ -267,7 +268,11 @@ button {
   width: 50px;
   height: 50px;
   position: relative;
-  top: 420px;
+  top: 660px;
+}
+
+.container-fluid .row {
+  padding-top: 0px;
 }
 
 .ingredients {
@@ -285,9 +290,10 @@ button {
 }
 
 .gerecht-foto img {
-  height: 400px;
+  max-height: 400px;
   padding-left: 850px;
   position: relative;
-  bottom: 346px;
+  bottom: 350px;
+  max-width: 1449px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -63,6 +63,7 @@
   </nav>
     </header>
     <main> 
+          <div class="container-fluid">
           <div class="row align-items-end">
             <div class="col">
             <img src="iconen/blotebilletjes.png" style="max-height: 384px;max-width:398px;">
@@ -78,6 +79,7 @@
             </div>
           </div>
         </div>
+        </div>
         <div class="ingredients">
           <p>ingrediënten</p>
           <ul>
@@ -89,12 +91,13 @@
           </ul>
         </div>
         <div class="gerecht-foto">
-          <img src="fotos-recipes/blotebilletjes.jpg" alt="">
+          <img src="fotos-recipes/<?= $recipe['image'] ?>" alt="">
         </div>
         <div class="text-box">
             <h1><?= $recipe['name'] ?></h1>
             <p>
-                <img class="img-fav" src="iconen/favorietensymbool.svg" width="30" height="30" alt="" loading="lazy">
+                <a href="favorieten.php">
+                <img class="img-fav" src="iconen/favorietensymbool.svg" width="30" height="30" alt="" loading="lazy"></a>
                 <?= nl2br($recipe['description']) ?></p>
                 <!-- <img src="iconen/favorieten.svg" width="30" height="30" alt="" loading="lazy"></p> -->
         </div>
