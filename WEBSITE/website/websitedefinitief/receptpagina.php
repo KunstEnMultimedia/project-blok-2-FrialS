@@ -3,6 +3,12 @@
     $id_recipe = $_GET['id'] ?? 0;
     $recipe = getRecipe($id_recipe);
     $ingredients = getIngredients($id_recipe);
+    // setcookie('favorites', '1,2,3');
+    $favorites = $_COOKIE['favorites'] ?? '';
+    $favarray = explode(',', $favorites);
+    $isFavorite = in_array($id_recipe, $favarray);
+    $recipes = getFavoriteRecipes($favorites);
+    var_dump($isFavorite);
 ?>
 
 <!DOCTYPE html>
@@ -95,10 +101,12 @@
         </div>
         <div class="text-box">
             <h1><?= $recipe['name'] ?></h1>
+            <div class="favorite" data-id="<?=$recipe['id']?>">
+            
             <p>
-                <a href="favorieten.php">
-                <img class="img-fav" src="iconen/favorietensymbool.svg" width="30" height="30" alt="" loading="lazy"></a>
-                <?= nl2br($recipe['description']) ?></p>
+                <a href="#">
+                <img class="img-fav" src="<?= $isFavorite ? 'iconen/favorietensymboolfilled.svg' : 'iconen/favorietensymbool.svg'?>" width="30" height="30" alt="" loading="lazy"></a>
+                <?= nl2br($recipe['description']) ?></p></div>
                 <!-- <img src="iconen/favorieten.svg" width="30" height="30" alt="" loading="lazy"></p> -->
         </div>
         
@@ -106,6 +114,8 @@
     <footer>
         <p>Made by Frial</p>
     </footer>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </html>
