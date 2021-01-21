@@ -5,7 +5,6 @@ var btnlikes = document.querySelectorAll('.favorite');
 
 btnlikes.forEach(element => {
     element.addEventListener('click', function (ev) {
-        // ev.preventDefault();
         toggleLike(this.dataset.id);
         console.log(this.dataset.id);
     });

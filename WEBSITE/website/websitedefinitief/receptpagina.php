@@ -8,7 +8,6 @@
     $favarray = explode(',', $favorites);
     $isFavorite = in_array($id_recipe, $favarray);
     $recipes = getFavoriteRecipes($favorites);
-    var_dump($isFavorite);
 ?>
 
 <!DOCTYPE html>

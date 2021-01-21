@@ -42,7 +42,7 @@
         </ul>
         <div class="d-flex justify-content-center">
           <!-- 4. Voeg class toe en stijl daarin de font-size, font-weight, color, etc. -->
-          <a class="fav-link ml-auto" href="favorieten.php"><img src="iconen/favorieten.svg" width="30" height="30"
+          <a class="fav-link ml-auto pr-4" href="favorieten.php"><img src="iconen/favorieten.svg" width="30" height="30"
               alt="" loading="lazy">Mijn favorieten</a>
         </div>
       </div>
@@ -51,12 +51,6 @@
 </header>
 <main>
   <h1>Oerhollandse Recepten</h1>
-  <!-- <div class="form-group">
-            <div class="input-group">
-                <input type="text" name="search" class="form-control" placeholder="Search">
-                <span><button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button></span>
-             </div>
-        </div> -->
   <form method="GET" action="allerecepten.php">
       <div>
       <div class="zoekbalk">
