@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Sansita+Swashed:wght@500&display=swap");
+header .navbar {
+  background-color: #020F59;
+  height: 117px;
+}
+
+header .navbar .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #6C9BD9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .navbar-brand:hover {
+  color: #CEDEF2;
+}
+
+header .nav-item .nav-link {
+  font-size: 30px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+header .nav-item .nav-link:hover {
+  color: #6C9BD9;
+}
+
+header .navbar-nav {
+  width: 90px;
+}
+
+header .fav-link {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+header .fav-link:hover {
+  color: #6C9BD9;
+}
+
+footer {
+  background-color: #020F59;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+footer p {
+  color: #6C9BD9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding-top: 25px;
+  font-size: 30px;
+}
+
+body {
+  background-color: #CEDEF2;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 100%;
+}
+
+.row {
+  padding-top: 15px;
+}
+
+.row .col {
+  height: 550px;
+  background-color: #6C9BD9;
+  padding-top: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 30px;
+  font-family: "Sansita Swashed", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.row .col img {
+  height: 333px;
+  width: 345px;
+}
+
+.card {
+  margin-bottom: 15px;
+  background-color: #6C9BD9;
+  border-radius: 0px, 0px, 15px, 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.card .card-body {
+  background-color: #6C9BD9 !important;
+}
+
+.card .card-body .card-title {
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card .card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.card .card-img-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card .btn-link {
+  text-decoration: none;
+  color: white;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding-top: 270px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 31px;
+  padding-top: 90px;
+}
+
+.zoekbalk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 390px;
+}
+
+input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: none;
+  border-radius: 31px;
+  border: 2px solid #0000FF;
+  text-align: center;
+}
+
+button {
+  border: 5px solid #0000FF;
+  background: blue;
+  color: white;
+  border-radius: 31px;
+}
+
+.zoekbalk-versiering {
+  text-align: center;
+  padding-top: 10px;
+  width: 390px;
+  padding-right: 30px;
+  margin-bottom: 70px;
+}
+
+.zoekbalk-versiering img {
+  width: 60%;
+  height: auto;
+}
+
+.oerhollands-light {
+  color: #5581D9;
+  padding-top: 90px;
+}
+
+.button-allrecipes {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  background-color: #6C9BD9;
+  border: none;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.text-box h1 {
+  text-align: left;
+  margin-left: 70px;
+  width: 600px;
+  height: 10px;
+  padding-left: 20px;
+  color: #CEDEF2;
+  font-size: 35px;
+  border-bottom: 50px solid #6C9BD9;
+  position: relative;
+  bottom: 500px;
+}
+
+.text-box p {
+  width: 600px;
+  background-color: #6C9BD9;
+  margin-left: 70px;
+  padding-left: 20px;
+  padding-right: 100px;
+  color: #ffffff;
+  margin-top: 10px;
+  position: relative;
+  bottom: 510px;
+  min-height: 720px;
+}
+
+.text-box p img {
+  margin-left: 510px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 660px;
+}
+
+.container-fluid .row {
+  padding-top: 0px;
+}
+
+.ingredients {
+  width: 600px;
+  background-color: #6C9BD9;
+  margin-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 100px;
+  color: #ffffff;
+  margin-top: 10px;
+  max-height: 350px;
+  min-height: 350px;
+}
+
+.gerecht-foto img {
+  max-height: 400px;
+  padding-left: 850px;
+  position: relative;
+  bottom: 350px;
+  max-width: 1449px;
+}
+/*# sourceMappingURL=main.css.map */
